@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="@drawable/klloginb" >
+        <View
+            android:id="@+id/line1"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <WebView
+            android:layout_below="@id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:id="@+id/kl_webview"
+             />
+        <View
+            android:layout_below="@id/kl_webview"
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <ImageView
+            android:id="@+id/kl_iphoneback"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/kl_back"
+            />
+        <!--<ImageView-->
+              <!--android:id="@+id/kl_close"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:background="@drawable/kl_close"-->
+            <!--/>-->
+    </RelativeLayout>
+
+
+</LinearLayout>

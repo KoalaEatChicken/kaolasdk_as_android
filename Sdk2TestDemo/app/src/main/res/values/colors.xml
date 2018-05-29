@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kltransparent_background">#50000000</color>
+    <color name="klfont_black">#000000</color>
+    <color name="klfont_white">#ffffff</color>
+    <color name="klfont_orange">#fc9401</color>
+    <color name="klfont_somber">#e5e4e4</color>
+    <color name="klfontgrey_black">#4e4d4d</color>
+    <color name="klgrey_black">#196a83</color>
+    <color name="kl_background">#e5e4e4</color>
+    <color name="klother">#00000001</color>
+    <color name="klgrey_bg">#f0f0f0</color>
+    <color name="klfont_black_96">#969696</color>
+    <color name="klfont_black_0d">#14110d</color>
+    <color name="klfont_orange_98">#fe9800</color>
+</resources>
