@@ -1,5 +1,5 @@
 # 🐨 KaoLaSDK_Data_Android #
-sdk对应的服务端接入文档，请移步：  [考拉游戏平台sdk服务端接入文档](./docs/考拉游戏平台sdk服务端接入文档%20v1.0.md)
+sdk对应的服务端接入文档，请移步：  [考拉游戏平台sdk服务端接入文档](koalagamekit-ios/docs/考拉游戏平台sdk服务端接入文档 v1.0.md)
 
 # 考拉游戏平台SDK接入文档【Android端】v2.x
  >本着简单、快速、稳妥、接入的原则，请贵方技术人员按如下流程接入。
