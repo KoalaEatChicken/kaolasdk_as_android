@@ -303,7 +303,7 @@ KLSDK.switchAccount();
 
 
 ### 七、 角色信息提交接口（必接）
-
+**需要提交的场景有：进入服务器(enterServer)、玩家创建用户角色(createRole)、玩家升级(levelUp)**
 代码示例
 
  ```java
