@@ -406,8 +406,8 @@ KLSDK.payment(this, paymentInfo, new ApiListenerInfo() {
 |  setIsTest   |   是否测试   |  String  |   测试参数   |      否      |      正式"0"      测试"1"       |
 |  setRoleid   |    角色id    |  String  |    角色id    |      否      |               111               |
 | setRolename  |    角色名    |  String  |    角色名    |      否      |            考拉大王             |
-| setRolelevel |   角色等级   |  String  |   角色等级   |      否      |              9999               |
-| SetServerid  |   服务器id   |  String  |   服务器名   |      否      |           考拉大王1区           |
+| setRolelevel |   角色等级   |  String  |   角色等级   |      否      |              99               |
+| SetServerid  |   服务器id   |  String  |   服务器名   |      否      |           10           |
 
 **备注**
 
