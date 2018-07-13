@@ -50,7 +50,7 @@ dependencies {
 **位置：/assets/kl.properties中的agent=s10003，将s10003更改为游戏名字的拼音缩写（不需要加双引号），比如王者荣耀，agent=wzry**
 
 示例图：
-![配置文件修改示例图](https://img-blog.csdn.net/20180713114555737?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hlY2F0ZTE5OTQ=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![配置文件修改示例图](https://github.com/KoalaEatChicken/kaolasdk_as_android/blob/master/%E7%A4%BA%E4%BE%8B%E6%96%87%E4%BB%B6/config_edit_eg.png)
 
 
 
