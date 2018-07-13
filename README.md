@@ -45,7 +45,11 @@ dependencies {
 }
 ```
 
-3、将assets里的文件直接拷贝到游戏Android工程的assets目录中（注：直接拷贝，无需更改）
+3、将assets里的文件直接拷贝到游戏Android工程的assets目录中（注：拷贝后，需要更改配置文件）
+
+**位置：/assets/kl.properties中的agent=s10003，
+  将s10003更改为游戏名字的拼音缩写（不需要加双引号），
+  比如王者荣耀，agent=wzry**
 
 4、Application配置权限
 
