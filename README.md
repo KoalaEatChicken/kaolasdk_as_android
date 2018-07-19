@@ -41,7 +41,7 @@ android {
 }
 dependencies {
     //。。。yours。。。
-    compile(name: 'kaolasdk2.0', ext: 'aar')
+    compile(name: 'kaolasdk2.0', ext: 'aar')  //替换为所接入的aar名字,'kaolasdk2.0'--->yours 
 }
 ```
 
