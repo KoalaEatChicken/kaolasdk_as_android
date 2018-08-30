@@ -31,9 +31,38 @@
         android:id="@+id/paybt"
         android:text="充值"
         android:layout_height="wrap_content" />
+        <Button
+        android:layout_width="match_parent"
+        android:id="@+id/switchAc"
+        android:text="登出/切换账号"
+        android:layout_height="wrap_content" />
          <Button
         android:layout_width="match_parent"
         android:id="@+id/exitbt"
         android:text="退出"
         android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView"
+            android:layout_alignParentEnd="true"
+            android:text="@string/version"
+            android:textColor="@color/klfont_white"
+            android:textSize="12sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/author"
+            android:textColor="@color/klfont_white"
+            android:textSize="12sp"
+            android:id="@+id/textView" />
+    </RelativeLayout>
 </LinearLayout>

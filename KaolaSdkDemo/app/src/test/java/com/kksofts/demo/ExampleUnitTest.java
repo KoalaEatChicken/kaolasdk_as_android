@@ -1,4 +1,4 @@
-package com.kksofts.myapplication;
+package com.kksofts.demo;
 
 import org.junit.Test;
 

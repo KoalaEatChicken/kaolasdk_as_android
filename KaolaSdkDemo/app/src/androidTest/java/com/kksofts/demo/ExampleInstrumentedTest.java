@@ -1,4 +1,4 @@
-package com.kksofts.myapplication;
+package com.kksofts.demo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

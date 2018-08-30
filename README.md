@@ -1,8 +1,6 @@
 # 🐨 KaoLaSDK_Data_Android #
 sdk对应的服务端接入文档，请移步：  [考拉游戏平台sdk服务端接入文档](https://github.com/KoalaEatChicken/koalagamekit-ios/blob/master/docs/%E8%80%83%E6%8B%89%E6%B8%B8%E6%88%8F%E5%B9%B3%E5%8F%B0sdk%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%8E%A5%E5%85%A5%E6%96%87%E6%A1%A3%20v2.0.md)
 
-**2018.7.12  修复了重要的问题，请接入方删除旧的aar文件，接口不变，望周知！**
-
 
 # 考拉游戏平台SDK接入文档【Android端】v2.x
  +>本着简单、快速、稳妥、接入的原则，请贵方技术人员按如下流程接入。
@@ -45,14 +43,7 @@ dependencies {
 }
 ```
 
-3、将assets里的文件直接拷贝到游戏Android工程的assets目录中（注：拷贝后，需要更改配置文件）
-
-**位置：/assets/kl.properties中的agent=s10003，将s10003更改为游戏名字的拼音缩写（不需要加双引号），比如王者荣耀，agent=wzry**
-
-示例图：
-![配置文件修改示例图](https://github.com/KoalaEatChicken/kaolasdk_as_android/blob/master/%E7%A4%BA%E4%BE%8B%E6%96%87%E4%BB%B6/config_edit_eg.png)
-
-
+3、将assets里的文件直接拷贝到游戏Android工程的assets目录中
 
 4、Application配置权限
 
@@ -121,20 +112,22 @@ android:name="com.klsdk.activity.KLForgetpasswordActivity"
 android:configChanges="orientation|keyboardHidden|screenSize"
 android:screenOrientation="landscape"
 android:theme="@style/kl_Transparent" />
+
 <service android:name="com.klsdk.push.PushService" />
+
 <receiver android:name="com.klsdk.push.BootReceive" >
-<intent-filter android:priority="1000" >
-<action android:name="android.intent.action.BOOT_COMPLETED" />
-<category android:name="android.intent.category.LAUNCHER" />
-<action android:name="android.intent.action.USER_PRESENT" />
-</intent-filter>
+    <intent-filter android:priority="1000" >
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+        <action android:name="android.intent.action.USER_PRESENT" />
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
 </receiver>
 
 ```
 
 ### 二、 生命周期接口（必接）
 
-代码示例：
+代码示例：(请勿漏接)
 
 ```java
 @Override
